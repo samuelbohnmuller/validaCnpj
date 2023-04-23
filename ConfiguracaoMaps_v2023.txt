@@ -1,0 +1,23 @@
+1 - Criar uma MapsActivity (projeto ou layout>New>Google>Google Maps Activity)
+2 - Acessar o site Google Developer Console (https://console.developers.google.com/?hl=pt-br)
+3 - Criar um novo projeto ou ativar um existente
+4 - Ativar APIs e Serviços
+5 - Escolher Maps SDK for Android
+6 - Preencher todos os dados: pessoa física, cartão de crédito (recomendo gerar um virtual para evitar qualquer cobrança), como será utilizada a API, etc.
+7 - Copiar a chave API gerada
+8 - Escolher "talvez mais tarde" na proteção da chave
+9 - Acessar o site SDK do Google Maps para Android (https://developers.google.com/maps/documentation/android-sdk/start?hl=pt-br)
+10 - Copiar as informações sugeridas no build.gradle em nível de projeto e app.
+11 - Salvar o projeto e sincronizar
+12 - Incluir em "local.properties" o "MAPS_API_KEY..."
+13 - Incluir no manifest, em application, o "meta-data"
+
+Opcionalmente, caso não for realizado o item 1:
+14 - Incluir no xml um "fragment"
+15 - Incluir no activity.java, "extends AppCompatActivity implements OnMapReadyCallback"
+16 - Adicionar (implements) as bibliotecas necessárias
+17 - Seguir exemplo de implementação no site oficial
+
+API Keys criadas:
+- Exemplo7: AIzaSyD8Iv712uizcoldr29mOXfkRY6_YY0zt4k
+- Unidades6e7: AIzaSyAvE-ekglSpoD7p6HglQhEWGf9oJWdziiM
